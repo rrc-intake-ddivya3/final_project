@@ -2,9 +2,9 @@ name: CodeQL Analysis
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master","branch-1" ]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master","branch-1" ]
 
 jobs:
   analyze:
